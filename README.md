@@ -1,4 +1,6 @@
 # MSSP / SOC архитектура
+
+```
 flowchart LR
     %% ================= ЗОНЫ =================
     classDef zoneCust fill:#f5faff,stroke:#2b6cb0,stroke-width:1px;
@@ -188,3 +190,4 @@ flowchart LR
     %% SOC Portal ↔ клиент
     S_Portal -->|"Dashboards, отчёты,\nPIR материалы, SLA"| C_IT
     C_MGMT -->|"Политики, risk appetite,\napprove уровней автоматизации"| G_Policy
+```
